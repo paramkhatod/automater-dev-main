@@ -7,9 +7,9 @@ function Review() {
     let dataReview = [
         {
             id: 1,
-            user: '/desaiM.png',
+            user: '/user5.jpg',
             review: 'My students love using Autometer for their projects. It teaches them valuable automation skills.',
-            name: 'Yogita K. Desai'
+            name: 'Naruto Uzhumaki'
         },
         {
             id: 2,
