@@ -65,16 +65,12 @@ function Navbar() {
                 </div>
 
                 {/* Desktop Menu */}
-                <ul ref={menuItemsRef} className="list-none text-gray-800 hidden xl:flex items-center">
+                <ul ref={menuItemsRef} className="list-none text-gray-800 hidden xl:flex ml-auto items-center">
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/">Home</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/blogs">Blogs</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/policies">Policies</a></li>
-                    
-                    {/* --- ADD THIS NEW LINE --- */}
+                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/templets">Templets</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/terms">Terms</a></li>
-                    
-                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="#">Feature</a></li>
-                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="#">Review</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="#">Newsletter</a></li>
                 </ul>
 
@@ -106,8 +102,7 @@ function Navbar() {
                         
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/terms">Terms</a></li>
                         
-                        <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/#feature">Feature</a></li>
-                        <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/#review">Review</a></li>
+                        
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/#newsletter">Newsletter</a></li>
                     </ul>
                 </div>
