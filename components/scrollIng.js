@@ -52,7 +52,7 @@ function Scroll() {
         <div className="w-full h-[1000px] text-white relative overflow-hidden bg-rose-950"> 
             <div className="relative z-10 w-full px-0 md:px-32 lg:px-12 xl:px-0 mx-auto h-full flex flex-col justify-center items-center">
                 
-                <h2 className="title2 text-3xl md:text-8xl text-center font-semibold leading-tight md:leading-relaxed mb-10 mt-6">
+                <h2 className="title2 text-3xl md:text-8xl text-center font-semibold leading-tight md:leading-relaxed mb-10 mt-6 text-gray-900">
                 Built for education
                 </h2>
 

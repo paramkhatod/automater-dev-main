@@ -5,7 +5,6 @@ import Benefit from '../components/benefit'
 import HeroNext from '../components/HeroNext'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
-import Newsletter from '../components/newsletter'
 import Fetures from '../components/fetures'
 import Review from '../components/review'
 import Scrolling from '../components/scrollIng'
@@ -31,7 +30,6 @@ export default function Home() {
         <Scrolling />
         <Fetures  />
         <Review />
-        <Newsletter/>
       </article>
 
       <footer>

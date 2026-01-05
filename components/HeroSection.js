@@ -204,10 +204,17 @@ function HeroSection() {
                     <p className="subtitle mt-12 text-base md:text-lg leading-normal md:leading-relaxed text-gray-700">
                         Build automation workflows in a Minutes. <br/>Perfect for students and teachers who want to automate their work.
                     </p>
+                   
                     <div className="hero-button mt-7 flex">
-                        <button ref={getStartedBtnRef} className="bg-btnDark text-white w-44 mx-0 mr-4 h-16 font-medium rounded-lg hover:shadow-xl transition-all">Get started</button>
-                        <button ref={watchVideoBtnRef} className="bg-btnLight text-gray-800 w-44 mx-0 h-16 font-medium rounded-lg hover:shadow-xl transition-all">Watch a video</button>
+                    <a href="https://automater-dev.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <button ref={getStartedBtnRef} href="https://automater-dev.netlify.app/" className="bg-btnDark text-white w-44 mx-0 mr-4 h-16 font-medium rounded-lg hover:shadow-xl transition-all">Get started</button>
+                        </a>
+                        <button ref={watchVideoBtnRef} onClick={() => window.open('/AutoMater.wmv', '_blank')}
+                        className="bg-btnLight text-gray-800 w-44 mx-0 h-16 font-medium rounded-lg hover:shadow-xl transition-all">
+                            Watch a video
+                            </button>
                     </div>
+                    
                 </div>
 
                 {/* --- RIGHT SIDE (NODE CANVAS) --- */}

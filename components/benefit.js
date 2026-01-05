@@ -41,7 +41,7 @@ function Benefit() {
 
     return (
         
-        <div className="xl:w-container mx-auto my-24 md:my-10 text-gray-900"> {/* Changed text color */}
+        <div id="benefit" className="xl:w-container mx-auto my-24 md:my-10 text-gray-900"> {/* Changed text color */}
             <div className="title x-full md:w-7/12 mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-semibold leading-relaxed">The benefit you get</h2>
                 <p className="mt-2 w-3/4 mx-auto text-gray-700 text-base">Get Ai Working in Your Life, education-focused, and beginner-friendly UI. Start automating in 5 minutes without any coding knowledge.</p> {/* Changed text color */}
@@ -55,7 +55,7 @@ function Benefit() {
                                 <span className='flex justify-start md:justify-start'>{content.icon}</span>
                                 <h3 className="mt-8 text-2xl font-medium">{content.title}</h3>
                                 <p className="content my-4 text-sm leading-loose text-gray-700">{content.description}</p> {/* Changed text color */}
-                                <a className='font-medium underline text-pink-600' href="#">Read More</a>
+                                <a className='font-medium underline text-pink-600' href="/blogs">Read Blogs</a>
                             </div>
                         )
                     })

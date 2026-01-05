@@ -71,16 +71,18 @@ function Navbar() {
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/policies">Policies</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/templets">Templets</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/terms">Terms</a></li>
-                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="#">Newsletter</a></li>
+
                 </ul>
 
                 {/* Desktop "Get Started" Button */}
-                <div ref={getStartedBtnRef} className="hidden xl:block">
-                    <button className={`bg-btnDark text-white w-44 font-medium rounded-lg hover:shadow-xl transition-all duration-300 ${
+                <div ref={getStartedBtnRef}  className="hidden xl:block">
+                <a href="https://automater-dev.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <button href="https://automater-dev.netlify.app/" className={`bg-btnDark text-white w-44 font-medium rounded-lg hover:shadow-xl transition-all duration-300 ${
                         isScrolled ? 'h-14' : 'h-14' // This also uses the 'isScrolled' variable
                         }`}>
                         Get started
                     </button>
+                    </a>
                 </div>
 
                 {/* Mobile Menu Button */}
@@ -98,12 +100,8 @@ function Navbar() {
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/">Home</a></li>
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/blogs">Blogs</a></li>
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/policies">Policies</a></li>
-                        
-                        
                         <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/terms">Terms</a></li>
                         
-                        
-                        <li className="py-2"><a className="hover:text-pink-600 transition-all" href="/#newsletter">Newsletter</a></li>
                     </ul>
                 </div>
             )}

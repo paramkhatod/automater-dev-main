@@ -7,31 +7,22 @@ function Footer() {
     {
       title: 'Product',
       links: [
-        { name: 'Features', href: '/features' },
-        { name: 'Benefits', href: '/benefits' },
-        { name: 'Testimonials', href: '/testimonials' },
+        { name: 'Features', href: '/#fetures' },
+        { name: 'Benefits', href: '/#benefit' },
       ],
     },
     {
       title: 'Resources',
       links: [
-        { name: 'Blog', href: '/blog' },
-        { name: 'Documentation', href: '/docs' }, // <-- FIX: Removed the extra 'L'
-        { name: 'GitHub', href: 'https://github.com/your-repo' },
+        { name: 'Blog', href: '/blogs' },
+        { name: 'GitHub', href: 'https://github.com/rohangadakh/automater-firebase' },
       ],
     },
-    {
-      title: 'Company',
-      links: [
-        { name: 'About Us', href: '/about' },
-        { name: 'Contact Us', href: '/contact' },
-        { name: 'Careers', href: '/careers' },
-      ],
-    },
+    
     {
       title: 'Legal',
       links: [
-        { name: 'Privacy Policy', href: '/privacy' },
+        { name: 'Privacy Policy', href: '/policies' },
         { name: 'Terms of Service', href: '/terms' },
       ],
     },

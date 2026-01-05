@@ -31,7 +31,7 @@ function Fetures() {
 
 
     return (
-        <div id="features" className="mt-28 lg:mt-52 w-full xl:w-container mx-auto px-10 xl:px-0">
+        <div id="fetures" className="mt-28 lg:mt-52 w-full xl:w-container mx-auto px-10 xl:px-0">
             <div className="title3 w-full lg:w-7/12 mx-auto text-center">
                 <h2 className="text-3xl md:text-4xl font-semibold leading-tight md:leading-relaxed text-gray-900">Everything you need to automate your work</h2> {/* Changed text */}
                 <p className="mt-5 w-3/4 mx-auto text-gray-700 text-base">Powerful features designed specifically for students and teachers</p> {/* Changed text */}
@@ -57,7 +57,9 @@ function Fetures() {
                             </div>
                             <div className="">
                                 {/* Updated button style */}
+                                <a href="https://automater-dev.netlify.app/" target="_blank" rel="noopener noreferrer">
                                 <button className="bg-pink-600 group-hover:bg-pink-700 text-white w-full h-16 font-medium rounded-lg hover:shadow-xl transition duration-200">Get started</button>
+                                </a>
                             </div>
                         </div>
                     )
