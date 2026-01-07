@@ -69,7 +69,7 @@ function Navbar() {
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/">Home</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/blogs">Blogs</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/policies">Policies</a></li>
-                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/templets">Templets</a></li>
+                    <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/templets">Templates</a></li>
                     <li className="px-6"><a className="hover:text-pink-600 transition-all" href="/terms">Terms</a></li>
 
                 </ul>
